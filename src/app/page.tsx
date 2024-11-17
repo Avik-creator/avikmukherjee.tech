@@ -47,6 +47,7 @@ export default async function Home() {
             >
               music.
             </Link>
+            
           </p>
           <div className="mt-4 flex items-end gap-1">
             <p>Currently Learning</p>

@@ -40,13 +40,6 @@ export async function sendEmail(data: ContactFormInputs): Promise<SendEmailRespo
       text: `Name:\n${name}\n\nEmail:\n${email}\n\nMessage:\n${message}`,
     });
 
-    // if ('error' in response) {
-    //   console.error('Resend API error:', response);
-    //   return { 
-    //     error: "Failed to send email" 
-    //   };
-    // }
-
     if(response.error) {
       return {
         error: "Failed to send email"
