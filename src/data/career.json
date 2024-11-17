@@ -1,0 +1,69 @@
+{
+    "career": [
+        {
+            "name": "Datafoundry AI",
+            "href": "https://datafoundry.ai",
+            "title": "",
+            "logo": "/datafoundry.svg",
+            "start": "Sept 2024",
+            "description": [
+                "Worked on Azure Data pipelines for data preprocessing, and generating CSV files.",
+                "Implemented Localizations for the web application using i18next and React.",
+                "Implemented Permission Based Access Control for the web application."
+            ]
+        },
+        {
+            "name": "Dank",
+            "href": "https://joindank.webflow.io",
+            "title": "Junior React Native Developer",
+            "logo": "/Dank.ico",
+            "start": "Nov 2023",
+            "end": "Feb 2023",
+            "description": [
+                "",
+                ""
+            ],
+            "links": [
+                {
+                    "name": "Dank",
+                    "href": "https://play.google.com/store/apps/details?id=com.joindank.dankapp",
+                    "icon": "globe"
+                }
+            ]
+        },
+        {
+            "name": "Auctopus Technologies",
+            "href": "https://www.auctopustechnologies.com/home",
+            "title": "Software Developer (Intern)",
+            "logo": "/dbs.png",
+            "start": "June 2023",
+            "end": "Aug 2023",
+            "description": [
+                "",
+                ""
+            ]
+        },
+        {
+            "name": "Activate Interactive Pte Ltd",
+            "href": "https://framedmedia.com",
+            "title": "Software Developer (Intern)",
+            "logo": "/activate.png",
+            "start": "Nov 2022",
+            "end": "Feb 2023",
+            "description": [
+                ""
+            ]
+        },
+        {
+            "name": "Qwerty Thoughts",
+            "href": "https://www.linkedin.com/company/qwerty-thoughts",
+            "title": "Software Developer (Intern)",
+            "logo": "/activate.png",
+            "start": "May 2019",
+            "end": "Aug 2019",
+            "description": [
+                ""
+            ]
+        }
+    ]
+}

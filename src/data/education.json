@@ -1,0 +1,23 @@
+{
+    "education": [
+        {
+            "name": "Maulana Abul Kalam Azad University of Technology",
+            "href": "",
+            "title": "B.Tech in Information Technology",
+            "logo": "/Makaut.png",
+            "start": "June 2021",
+            "end": "June 2025",
+            "description": [
+                "Currently pursuing my B.Tech in Information Technology from Maulana Abul Kalam Azad University of Technology, West Bengal.",
+                "I have completed courses on Data Structures, Algorithms, Operating Systems, Computer Networks, Database Management Systems, and Software Engineering."
+            ],
+            "links": [
+                {
+                    "name": "Third Year Project",
+                    "href": "https://github.com/Avik-creator/cafe-management-system/tree/main",
+                    "icon": "github"
+                }
+            ]
+        }
+    ]
+}

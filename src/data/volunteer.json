@@ -1,0 +1,30 @@
+{
+    "career": [
+        {
+            "name": "Google Developer Student Club - MAKAUT",
+            "href": "https://gdg.community.dev/gdg-on-campus-maulana-abul-kalam-azad-university-of-technology-kalyani-india/",
+            "title": "LEAD",
+            "logo": "/DSCMAKAUT.jpeg",
+            "start": "July 2023",
+            "end": "July 2024",
+            "description": [
+                "Organized various workshops, hackathons, and events which helped students to learn and grow.",
+                "Conducted various sessions on technologies like Flutter, Google Cloud Platform, etc.",
+                "Created a community of 600+ students who are passionate about technology.",
+                "Collaborated with various organizations to conduct events and workshops."
+            ]
+        },
+        {
+            "name": "Repl Devs",
+            "href": "https://repl-us.web.app",
+            "title": "Web Developer",
+            "logo": "/ReplDevs.jpeg",
+            "start": "July 2022",
+            "end": "July 2023",
+            "description": [
+                "Worked on the frontend of the website using React and Plain CSS.",
+                "Made sure to deploy the website on FireBase."
+            ]
+        }
+    ]
+}
