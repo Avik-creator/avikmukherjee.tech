@@ -1,17 +1,27 @@
 {
     "projects": [
         {
-            "name": "",
-            "description": "",
-            "image": "",
+            "name": "CodeIDE",
+            "description": "It is a web-based code editor that supports multiple languages. It is built from Scratch using Nextjs, TailwindCSS, and Monaco Editor for the Frontend and Nodejs along with Socket.io for the backend. Dockerized the application for easy deployment.",
+            "image": "/Projects/CodeIDE.png",
             "tags": [
-                ""
+                "Nextjs",
+                "TailwindCSS",
+                "Monaco Editor",
+                "Nodejs",
+                "Socket.io",
+                "Docker"
             ],
             "links": [
                 {
-                    "name": "",
-                    "href": "",
-                    "icon": ""
+                    "name": "Demo",
+                    "href": "https://x.com/avikm744/status/1842055111314383191",
+                    "icon": "twitter"
+                },
+                {
+                    "name": "Github",
+                    "href": "https://github.com/Avik-creator/codeide-codespace",
+                    "icon": "github"
                 }
             ]
         }

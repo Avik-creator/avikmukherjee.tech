@@ -1,58 +1,37 @@
 export const runtime = "edge";
 
+import { ArrowLeftIcon } from "@radix-ui/react-icons";
+import LinkWithIcon from "../components/LinkWithIcon";
+
 export default function NotFound() {
   return (
-    <>
-      <title>404: This page could not be found.</title>
-      <div style={styles.error}>
-        <div>
-          <style
-            dangerouslySetInnerHTML={{
-              __html: `body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}`,
-            }}
-          />
-          <h1 className="next-error-h1" style={styles.h1}>
-            404
-          </h1>
-          <div style={styles.desc}>
-            <h2 style={styles.h2}>This page could not be found.</h2>
-          </div>
+    <article className="mt-8 flex flex-col gap-8 pb-16">
+      <div className="min-h-full px-4 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">
+        <div className="mx-auto max-w-max">
+          <section className="sm:flex">
+            <p className="title text-muted-foreground">404</p>
+            <div className="sm:ml-6">
+              <div className="sm:border-l sm:border-gray-200 sm:pl-6">
+                <h1 className="title sm:text-5xl">
+                  cannot find <i>ehhhhhh</i>...
+                </h1>
+                <p className="mt-1 text-base text-muted-foreground">
+                  Maybe I renamed or deleted the page <i>ciao</i>. Try again{" "}
+                  <i>😀</i>.
+                </p>
+              </div>
+              <div className="mt-10 flex space-x-3 sm:border-l sm:border-transparent sm:pl-6">
+                <LinkWithIcon
+                  href="/"
+                  text="back to home"
+                  icon={<ArrowLeftIcon className="size-5" />}
+                  position="left"
+                />
+              </div>
+            </div>
+          </section>
         </div>
       </div>
-    </>
+    </article>
   );
 }
-
-const styles = {
-  error: {
-    fontFamily:
-      'system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"',
-    height: "100vh",
-    textAlign: "center",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-
-  desc: {
-    display: "inline-block",
-  },
-
-  h1: {
-    display: "inline-block",
-    margin: "0 20px 0 0",
-    padding: "0 23px 0 0",
-    fontSize: 24,
-    fontWeight: 500,
-    verticalAlign: "top",
-    lineHeight: "49px",
-  },
-
-  h2: {
-    fontSize: 14,
-    fontWeight: 400,
-    lineHeight: "49px",
-    margin: 0,
-  },
-} as const;

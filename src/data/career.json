@@ -4,7 +4,7 @@
             "name": "Datafoundry AI",
             "href": "https://datafoundry.ai",
             "title": "",
-            "logo": "/datafoundry.svg",
+            "logo": "/Companies/datafoundry.svg",
             "start": "Sept 2024",
             "description": [
                 "Worked on Azure Data pipelines for data preprocessing, and generating CSV files.",
@@ -16,7 +16,7 @@
             "name": "Dank",
             "href": "https://joindank.webflow.io",
             "title": "Junior React Native Developer",
-            "logo": "/Dank.ico",
+            "logo": "/Companies/Dank.ico",
             "start": "Nov 2023",
             "end": "Feb 2023",
             "description": [
@@ -32,10 +32,36 @@
             ]
         },
         {
+            "name": "Google Developer Student Club - MAKAUT",
+            "href": "https://gdg.community.dev/gdg-on-campus-maulana-abul-kalam-azad-university-of-technology-kalyani-india/",
+            "title": "LEAD",
+            "logo": "/Companies/DSCMAKAUT.jpeg",
+            "start": "July 2023",
+            "end": "July 2024",
+            "description": [
+                "Organized various workshops, hackathons, and events which helped students to learn and grow.",
+                "Conducted various sessions on technologies like Flutter, Google Cloud Platform, etc.",
+                "Created a community of 600+ students who are passionate about technology.",
+                "Collaborated with various organizations to conduct events and workshops."
+            ]
+        },
+        {
+            "name": "Repl Devs",
+            "href": "https://repl-us.web.app",
+            "title": "Web Developer",
+            "logo": "/Companies/ReplDevs.jpeg",
+            "start": "July 2022",
+            "end": "July 2023",
+            "description": [
+                "Worked on the frontend of the website using React and Plain CSS.",
+                "Made sure to deploy the website on FireBase."
+            ]
+        },
+        {
             "name": "Auctopus Technologies",
             "href": "https://www.auctopustechnologies.com/home",
             "title": "Software Developer (Intern)",
-            "logo": "/dbs.png",
+            "logo": "/Companies/AuctopusTechnologies.ico",
             "start": "June 2023",
             "end": "Aug 2023",
             "description": [
@@ -44,10 +70,10 @@
             ]
         },
         {
-            "name": "Activate Interactive Pte Ltd",
+            "name": "Framed Media",
             "href": "https://framedmedia.com",
-            "title": "Software Developer (Intern)",
-            "logo": "/activate.png",
+            "title": "Content Writer (Intern)",
+            "logo": "/Companies/FramedMedia.ico",
             "start": "Nov 2022",
             "end": "Feb 2023",
             "description": [
@@ -57,8 +83,8 @@
         {
             "name": "Qwerty Thoughts",
             "href": "https://www.linkedin.com/company/qwerty-thoughts",
-            "title": "Software Developer (Intern)",
-            "logo": "/activate.png",
+            "title": "Content Writer (Intern)",
+            "logo": "/Companies/QwertyThoughts.ico",
             "start": "May 2019",
             "end": "Aug 2019",
             "description": [
