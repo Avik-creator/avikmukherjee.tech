@@ -3,7 +3,7 @@
 import { Resend } from 'resend';
 import { z } from 'zod';
 import { ContactFormSchema } from "./schemas";
-import { randomUUID } from 'crypto';
+import { v4 as uuidv4 } from 'uuid';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -35,7 +35,7 @@ export async function sendEmail(data: ContactFormInputs): Promise<SendEmailRespo
       cc: [email],
       subject: `New message from ${name}!`,
       headers: {
-        "X_Entity-Ref-ID": randomUUID().toString()
+        "X_Entity-Ref-ID": uuidv4(),
       },
       text: `Name:\n${name}\n\nEmail:\n${email}\n\nMessage:\n${message}`,
     });
