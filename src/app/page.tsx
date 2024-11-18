@@ -1,3 +1,5 @@
+export const runtime = "edge";
+
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
 import AvikImage from "@/../public/Avik.jpg";
