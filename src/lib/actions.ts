@@ -1,7 +1,6 @@
 
 
 "use server";
-export const runtime = "edge";
 import { Resend } from 'resend';
 import { z } from 'zod';
 import { ContactFormSchema } from "./schemas";
