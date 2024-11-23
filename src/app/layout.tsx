@@ -4,6 +4,7 @@ import Providers from "@/components/Providers";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Calistoga, Inter } from "next/font/google";
+import { Analytics } from '@vercel/analytics/next';
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
@@ -34,7 +35,9 @@ export default function RootLayout({
       >
         <Providers>
           <Header />
-          <main className="grow">{children}</main>
+          <main className="grow">{children}
+            <Analytics/>
+          </main>
           <Footer />
         </Providers>
       </body>
