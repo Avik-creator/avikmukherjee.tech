@@ -11,6 +11,16 @@
             "icon": "github"
         },
         {
+            "name": "Twitter",
+            "href": "https://twitter.com/avikm744",
+            "icon": "twitter"
+        },
+        {
+            "name": "Hashnode",
+            "href": "https://hashnode.com/@avik450",
+            "icon": "book"
+        },
+        {
             "name": "Email",
             "href": "mailto:avikm744@gmail.com",
             "icon": "mail"

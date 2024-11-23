@@ -51,7 +51,7 @@ export async function POST(request: NextRequest) {
       first,
     });
 
-    console.log("Data: ", data);
+    
 
     if (!data) {
       return NextResponse.json(

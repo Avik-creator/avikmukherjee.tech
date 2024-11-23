@@ -5,6 +5,7 @@ import { Resend } from 'resend';
 import { z } from 'zod';
 import { ContactFormSchema } from "./schemas";
 import { v4 as uuidv4 } from 'uuid';
+import EmailTemplate from '@/components/EmailTemplate';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -27,18 +28,22 @@ export async function sendEmail(data: ContactFormInputs): Promise<SendEmailRespo
   }
 
   try {
-    const { name, email, message } = result.data;
+    const { name, email, subject, message } = result.data;
   
     const response = await resend.emails.send({
       from: `Contact Form <onboarding@resend.dev>`,
       to: "avikm744@gmail.com",
-      replyTo: [email],
-      cc: [email],
-      subject: `New message from ${name}!`,
+      replyTo: email,
+      subject: subject,
       headers: {
         "X_Entity-Ref-ID": uuidv4(),
       },
-      text: `Name:\n${name}\n\nEmail:\n${email}\n\nMessage:\n${message}`,
+      // text: `Name:\n${name}\n\nEmail:\n${email}\n\nMessage:\n${message}`,
+      react: EmailTemplate({
+        firstName: "Avik",
+        name: name,
+        message: message,
+      })
     });
 
     if(response.error) {

@@ -1,7 +1,13 @@
 export const runtime = "edge";
+import { Metadata } from "next";
 import Link from "next/link";
 
 const lastUpdated = "Nov 2024";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description: "Learn how I handle your data on my website.",
+}
 
 export default function page() {
   return (

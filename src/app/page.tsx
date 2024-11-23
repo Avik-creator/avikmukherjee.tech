@@ -14,14 +14,16 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { fetchPosts } from "@/lib/getBlogs";
+import PostComponent from "@/components/PostComponent";
 
 
 
 const AVIK_BIRTH_YEAR = 2002;
 const LIMIT = 2;
 export default async function Home() {
-  
 
+const { data: postsData, error } = await fetchPosts({ limit: 2 });
   return (
     <article className="mt-8 flex flex-col gap-16 pb-16">
       <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
@@ -95,7 +97,9 @@ export default async function Home() {
             text="view more"
           />
         </div>
-       
+        {postsData?.publication.posts.edges.map(({ node }) => (
+            <PostComponent key={node.slug} {...node} />
+          ))}
       </section>
     </article>
   );

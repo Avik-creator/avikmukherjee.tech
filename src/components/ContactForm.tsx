@@ -26,6 +26,7 @@ export default function ContactPage() {
     defaultValues: {
       name: "",
       email: "",
+      subject: "",
       message: "",
     },
   })
@@ -81,6 +82,19 @@ export default function ContactPage() {
           </div>
         </div>
 
+        {/* Subject */}
+        <div>
+          <Input
+            id="subject"
+            type="text"
+            placeholder="Subject"
+            {...register("subject")}
+          />
+          {errors.subject?.message && (
+            <p className="text-red-500 text-sm mt-1">{errors.subject.message}</p>
+          )}
+        </div>
+
         {/* Message */}
         <div>
           <Textarea
@@ -129,3 +143,4 @@ export default function ContactPage() {
     </div>
   )
 }
+

@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "See my blog.",
+  description: "See my Projects.",
   openGraph: {
     title: "Projects | Avik",
     description: "Projects of Avik Mukherjee.",
