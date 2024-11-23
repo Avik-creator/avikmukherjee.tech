@@ -24,6 +24,150 @@
                     "icon": "github"
                 }
             ]
+        },
+        {
+            "name": "Payment Template Package",
+            "description": "It is a NPM package which helps you to integrate payment gateways like Razorpay, Stripe in your backend application. Downloaded by more than 500+ developers worldwide in lifetime.",
+            "image": "/Projects/PaymentTemplatePackage.png",
+            "tags": [
+                "Nodejs",
+                "TypeScript",
+                "Razorpay",
+                "Stripe"
+            ],
+            "links": [
+                {
+                    "name": "NPM",
+                    "href": "https://www.npmjs.com/package/payment-templates",
+                    "icon": "globe"
+                },
+                {
+                    "name": "Github",
+                    "href": "https://github.com/Avik-creator/payment-templates-package",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "ResumeWorth",
+            "description": "A project designed to enchance, evaluate and roast resumes by leveraging AI-driven insights and document parsing. Built using Groq API for llama model. Used over 700+ users in lifetime",
+            "image": "/Projects/ResumeWorth.png",
+            "tags": [
+                "Nextjs",
+                "TailwindCSS",
+                "ShadCN",
+                "PDFJS",
+                "Groq"
+            ],
+            "links": [
+                {
+                    "name": "Website",
+                    "href": "https://resume-worth-murex.vercel.app/",
+                    "icon": "globe"
+                },
+                {
+                    "name": "Github",
+                    "href": "https://github.com/Avik-creator/resume-worth",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Hotel Booking App",
+            "description": "It is an application where the users can add Hotels and book hotels. A fullstack application made using React, Nodejs, Express, MongoDB. Integrated with Stripe for payments and e2e testing using Playwright.",
+            "image": "/Projects/HotelBookingApp.png",
+            "tags": [
+                "React",
+                "Nodejs",
+                "Express",
+                "MongoDB",
+                "Stripe",
+                "Playwright",
+                "Docker"
+            ],
+            "links": [
+                {
+                    "name": "Github",
+                    "href": "https://github.com/Avik-creator/Hotel-Booking-App",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Sorting Visualizer",
+            "description": "It is a web-based application that helps you visualize various sorting algorithms like Bubble Sort, Merge Sort, Quick Sort, etc. Built using React and TailwindCSS.",
+            "image": "/Projects/SortingVisualizer.png",
+            "tags": [
+                "React",
+                "TailwindCSS"
+            ],
+            "links": [
+                {
+                    "name": "Website",
+                    "href": "https://sorting-visualizer-three-olive.vercel.app/",
+                    "icon": "globe"
+                },
+                {
+                    "name": "Github",
+                    "href": "https://github.com/Avik-creator/sorting-visualizer",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Code to Picture",
+            "description": "It is a Web based application that converts your code into an image. Built using React and TailwindCSS and react-simple-code-editor.",
+            "image": "/Projects/CodetoImage.png",
+            "tags": [
+                "React",
+                "TailwindCSS",
+                "react-simple-code-editor"
+            ],
+            "links": [
+                {
+                    "name": "Website",
+                    "href": "https://code-to-picture.vercel.app/",
+                    "icon": "globe"
+                },
+                {
+                    "name": "Github",
+                    "href": "https://github.com/Avik-creator/Code-to-Picture",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Appetiizers",
+            "description": "Made this application to learn SwiftUI, it is a very basic application where you can see the list of appetizers and their details and users can add items for orders.",
+            "image": "/Projects/Appetizers.png",
+            "tags": [
+                "Swift",
+                "SwiftUI"
+            ],
+            "links": [
+                {
+                    "name": "Github",
+                    "href": "https://github.com/Avik-creator/Appertizers",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
+            "name": "Quiz App",
+            "description": "Made this application to further learn SwiftUI, it is a very basic application where you can see the list of questions and their options and users can select the correct answer.",
+            "image": "/Projects/QuizApp.png",
+            "tags": [
+                "Swift",
+                "SwiftUI",
+                "TriviaAPI"
+            ],
+            "links": [
+                {
+                    "name": "Github",
+                    "href": "https://github.com/Avik-creator/Quiz-App",
+                    "icon": "github"
+                }
+            ]
         }
     ]
 }

@@ -20,8 +20,10 @@
             "start": "Nov 2023",
             "end": "Feb 2023",
             "description": [
-                "",
-                ""
+                "Collaborate with the development team to ensure the timely delivery of applications.",
+                "Led feature development that formed the core 40% of the application, focusing on performance optimization and enhanced functionality.",
+                "Built and maintained the core features of the application, including the feed, comments, and user profiles.",
+                "Worked on the frontend of the application using React Native."
             ],
             "links": [
                 {
@@ -65,8 +67,9 @@
             "start": "June 2023",
             "end": "Aug 2023",
             "description": [
-                "",
-                ""
+                "Crafted captivating user interfaces with React, ensuring smooth API consumption and exceptional front-end experiences.",
+                "Designed and implemented Redux to centrally manage network discovery schedule state and automated subnet reporting, which leads to a 30% reduction in system response time.",
+                "Wrote testcases for the frontend using Cypress reducing manual testing time by 50%."
             ]
         },
         {
@@ -77,7 +80,9 @@
             "start": "Nov 2022",
             "end": "Feb 2023",
             "description": [
-                ""
+                "Was a Technical Content Writer Intern at Framed Media.",
+                "Wrote articles on various technologies like React, Node, and also some off topic articles like gaming, etc",
+                "Wrote over 50+ articles during the internship."
             ]
         },
         {
@@ -88,7 +93,9 @@
             "start": "May 2019",
             "end": "Aug 2019",
             "description": [
-                ""
+                "Was a spritual content writer intern at Qwerty Thoughts.",
+                "Wrote mainly on contents around Hindu Mythology and Spirituality.",
+                "Wrote over 30+ articles during the internship."
             ]
         }
     ]
