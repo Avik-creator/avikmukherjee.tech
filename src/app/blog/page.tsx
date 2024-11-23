@@ -1,10 +1,13 @@
 'use client'
 
+export const runtime = "edge";
+
 import React, { useState, useEffect } from 'react'
 import { fetchPosts } from '@/lib/getBlogs'
 import PostComponent from '@/components/PostComponent'
 import SearchComponent from '@/components/SearchComponent'
 import BlogLoading from '@/components/BlogLoadingPage'
+
 
 interface Post {
   node: {
