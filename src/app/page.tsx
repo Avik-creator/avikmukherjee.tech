@@ -34,7 +34,8 @@ const { data: postsData, error } = await fetchPosts({ limit: 2 });
           priority
         />
         <div className="flex flex-col">
-          <h1 className="title text-5xl">Hi Avik here 👋</h1>
+          <h1 className="title text-5xl">Hi Avik here <span className="hover:animate-wave inline-block">👋</span></h1>
+
           <p className="mt-4 font-light">
             {/* Update my age */}
             {new Date().getFullYear() - AVIK_BIRTH_YEAR}
