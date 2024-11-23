@@ -2,8 +2,6 @@ import { gql } from "graphql-request";
 import { getClient } from "@/lib/graphQLClient";
 import { NextRequest, NextResponse } from "next/server";
 
-export const runtime = "edge";
-
 export async function POST(request: NextRequest) {
   try {
     const client = getClient();

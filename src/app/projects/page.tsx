@@ -1,4 +1,4 @@
-export const runtime = "edge";
+
 
 import Projects from "@/components/Projects";
 import { Metadata } from "next";
