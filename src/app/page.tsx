@@ -1,19 +1,19 @@
+import AvikImage from "@/../public/Avik.jpg";
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
-import AvikImage from "@/../public/Avik.jpg";
 import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/button";
 
+import PostComponent from "@/components/PostComponent";
+import { fetchPosts } from "@/lib/getBlogs";
 import {
-  Shell,
-  ArrowRightIcon,
-  FileDown
+    ArrowRightIcon,
+    FileDown,
+    Shell
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { fetchPosts } from "@/lib/getBlogs";
-import PostComponent from "@/components/PostComponent";
 
 
 
@@ -50,15 +50,25 @@ const { data: postsData, error } = await fetchPosts({ limit: 2 });
             >
               music.
             </Link>
-            
+
           </p>
-          <div className="mt-4 flex items-end gap-1">
-            <p>Currently Learning</p>
-            <Link href={"https://youtube.com/playlist?list=PLinedj3B30sA_M0oxCRgFzPzEMX3CSfT5&si=BI2kX71iSbzkAoVg"} className="font-semibold underline">Rust</Link>
-            <p>and</p>
-            <Link href={"https://youtube.com/playlist?list=PL7CBVLpg0zqfIdcwDNa5c2xbhvK4crNqc&si=l4LeINp0wLyhl50_"} className="font-semibold underline">Operating System</Link>
-            <Shell className="size-5 animate-spin" />
-          </div>
+          <div className="flex flex-wrap items-center gap-1 sm:flex-nowrap">
+                <p>Currently Learning</p>
+                <Link
+                  href="https://youtube.com/playlist?list=PLinedj3B30sA_M0oxCRgFzPzEMX3CSfT5&si=BI2kX71iSbzkAoVg"
+                  className="font-semibold underline"
+                >
+                  Rust
+                </Link>
+                <p>and</p>
+                <Link
+                  href="https://youtube.com/playlist?list=PL7CBVLpg0zqfIdcwDNa5c2xbhvK4crNqc&si=l4LeINp0wLyhl50_"
+                  className="font-semibold underline"
+                >
+                  Operating System
+                </Link>
+                <Shell className="size-5 animate-spin" />
+              </div>
           <section className="mt-8 flex items-center gap-8">
             <Link href="https://drive.google.com/file/d/1t7rV7iL67arQ9wK8Bi2BvrXIMjfMpBFm/view?usp=drive_link" target="_blank">
               <Button variant="outline">
