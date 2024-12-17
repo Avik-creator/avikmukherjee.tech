@@ -168,6 +168,43 @@
                     "icon": "github"
                 }
             ]
+        },
+        {
+            "name": "AnimeStreamer",
+            "description": "Made this Application to watch Anime.",
+            "image": "/Projects/AnimeStreamer.png",
+            "tags": [
+                "React",
+                "Zustand",
+                "ConsumnetAPI",
+                "TailwindCSS",
+                "TypeScript"
+            ],
+            "links": [
+                {
+                    "name": "Website",
+                    "href": "https://animestreamer.vercel.app",
+                    "icon": "globe"
+                }
+            ]
+        },
+        {
+            "name": "SQLite Viewer",
+            "description": "A simple web-based application to view SQLite databases. Built using NextJS, ShadCN ,TailwindCSS, and sql.js.",
+            "image": "/Projects/SQLViewer.png",
+            "tags": [
+                "Nextjs",
+                "TailwindCSS",
+                "ShadCN",
+                "sql.js"
+            ],
+            "links": [
+                {
+                    "name": "Website",
+                    "href": "https://sqliteviewer.vercel.app",
+                    "icon": "globe"
+                }
+            ]
         }
     ]
 }
