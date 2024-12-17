@@ -10,8 +10,16 @@
                 "Worked on Azure Data pipelines for data preprocessing, and generating CSV files.",
                 "Implemented Localizations for the web application using i18next and React.",
                 "Implemented Permission Based Access Control for the web application."
+            ],
+            "links": [
+                {
+                    "name": "Datafoundry AI",
+                    "href": "https://datafoundry.ai",
+                    "icon": "globe"
+                }
             ]
         },
+
         {
             "name": "Dank",
             "href": "https://joindank.webflow.io",
@@ -45,6 +53,13 @@
                 "Conducted various sessions on technologies like Flutter, Google Cloud Platform, etc.",
                 "Created a community of 600+ students who are passionate about technology.",
                 "Collaborated with various organizations to conduct events and workshops."
+            ],
+            "links": [
+                {
+                    "name": "Google Developer Student Club - MAKAUT",
+                    "href": "https://gdg.community.dev/gdg-on-campus-maulana-abul-kalam-azad-university-of-technology-kalyani-india/",
+                    "icon": "globe"
+                }
             ]
         },
         {
@@ -57,6 +72,13 @@
             "description": [
                 "Worked on the frontend of the website using React and Plain CSS.",
                 "Made sure to deploy the website on FireBase."
+            ],
+            "links": [
+                {
+                    "name": "Repl Devs",
+                    "href": "https://repl-us.web.app",
+                    "icon": "globe"
+                }
             ]
         },
         {
@@ -70,6 +92,13 @@
                 "Crafted captivating user interfaces with React, ensuring smooth API consumption and exceptional front-end experiences.",
                 "Designed and implemented Redux to centrally manage network discovery schedule state and automated subnet reporting, which leads to a 30% reduction in system response time.",
                 "Wrote testcases for the frontend using Cypress reducing manual testing time by 50%."
+            ],
+            "links": [
+                {
+                    "name": "Auctopus Technologies",
+                    "href": "https://www.auctopustechnologies.com/home",
+                    "icon": "globe"
+                }
             ]
         },
         {
@@ -83,6 +112,13 @@
                 "Was a Technical Content Writer Intern at Framed Media.",
                 "Wrote articles on various technologies like React, Node, and also some off topic articles like gaming, etc",
                 "Wrote over 50+ articles during the internship."
+            ],
+            "links": [
+                {
+                    "name": "Framed Media",
+                    "href": "https://framedmedia.com",
+                    "icon": "globe"
+                }
             ]
         },
         {
@@ -96,6 +132,13 @@
                 "Was a spritual content writer intern at Qwerty Thoughts.",
                 "Wrote mainly on contents around Hindu Mythology and Spirituality.",
                 "Wrote over 30+ articles during the internship."
+            ],
+            "links": [
+                {
+                    "name": "Qwerty Thoughts",
+                    "href": "https://www.linkedin.com/company/qwerty-thoughts",
+                    "icon": "globe"
+                }
             ]
         }
     ]
