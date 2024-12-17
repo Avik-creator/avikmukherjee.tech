@@ -56,6 +56,7 @@ const { data: postsData, error } = await fetchPosts({ limit: 2 });
                 <p>Currently Learning</p>
                 <Link
                   href="https://youtube.com/playlist?list=PLinedj3B30sA_M0oxCRgFzPzEMX3CSfT5&si=BI2kX71iSbzkAoVg"
+                  target="_blank"
                   className="font-semibold underline"
                 >
                   Rust
@@ -64,13 +65,14 @@ const { data: postsData, error } = await fetchPosts({ limit: 2 });
                 <Link
                   href="https://youtube.com/playlist?list=PL7CBVLpg0zqfIdcwDNa5c2xbhvK4crNqc&si=l4LeINp0wLyhl50_"
                   className="font-semibold underline"
+                  target="_blank"
                 >
                   Operating System
                 </Link>
                 <Shell className="size-5 animate-spin" />
               </div>
           <section className="mt-8 flex items-center gap-8">
-            <Link href="https://drive.google.com/file/d/1t7rV7iL67arQ9wK8Bi2BvrXIMjfMpBFm/view?usp=drive_link" target="_blank">
+            <Link href="https://drive.google.com/file/d/1FKB4m37m9Co8YTZmXHK7BWKAFiVaJnH0/view?usp=sharing" target="_blank">
               <Button variant="outline">
                 <span className="font-semibold">Resume</span>
                 <FileDown className="ml-2 size-5" />
