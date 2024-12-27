@@ -27,7 +27,7 @@
         },
         {
             "name": "FormCraftAI",
-            "description": "Ever Felt that building Google Forms are Headache, me too. That is why use FormCraftAI and leave AI to do the rest.",
+            "description": "Building forms can often be tedious and time-consuming, but using FormCraftAI, one can leave the difficult labor to AI and create professional, user-friendly forms in seconds. Whether it is surveys, registrations, or feedback forms, FormCraftAI simplifies it all-no more messing about layouts, question structures, or formats. Simply describe what you need, and our intelligent AI will generate the most suitable form for you, saving time and effort on your part to focus on gathering insights and making informed decisions. Manual form building will be in the past, making way for effortless automation with FormCraftAI!",
             "image": "/Projects/FormCraftAI.png",
             "tags": [
                 "Google Forms API",
