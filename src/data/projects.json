@@ -26,6 +26,32 @@
             ]
         },
         {
+            "name": "FormCraftAI",
+            "description": "Ever Felt that building Google Forms are Headache, me too. That is why use FormCraftAI and leave AI to do the rest.",
+            "image": "/Projects/FormCraftAI.png",
+            "tags": [
+                "Google Forms API",
+                "Next-Auth", 
+                "Drizzle",
+                "NeonDB",
+                "NextJS",
+                "ShadCN UI",
+                "Groq"
+            ],
+            "links": [
+                {
+                    "name": "Website",
+                    "href": "https://aiformbuilder-delta.vercel.app/",
+                    "icon": "globe"
+                },
+                {
+                    "name": "Github",
+                    "href": "https://github.com/Avik-creator/avikmukherjee.tech",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
             "name": "Payment Template Package",
             "description": "It is a NPM package which helps you to integrate payment gateways like Razorpay, Stripe in your backend application. Downloaded by more than 500+ developers worldwide in lifetime.",
             "image": "/Projects/PaymentTemplatePackage.png",
