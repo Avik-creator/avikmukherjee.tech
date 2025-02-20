@@ -72,7 +72,7 @@ const { data: postsData, error } = await fetchPosts({ limit: 2 });
                 <Shell className="size-5 animate-spin" />
               </div>
           <section className="mt-8 flex items-center gap-8">
-            <Link href="https://drive.google.com/file/d/1FKB4m37m9Co8YTZmXHK7BWKAFiVaJnH0/view?usp=sharing" target="_blank">
+            <Link href="https://drive.google.com/file/d/15QiRTjh3Pe9kojI82SKzq0380p5llLDT/view?usp=sharing" target="_blank">
               <Button variant="outline">
                 <span className="font-semibold">Resume</span>
                 <FileDown className="ml-2 size-5" />
