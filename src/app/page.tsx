@@ -55,11 +55,11 @@ const { data: postsData, error } = await fetchPosts({ limit: 2 });
           <div className="flex flex-wrap items-center gap-1 sm:flex-nowrap">
                 <p>Currently Learning</p>
                 <Link
-                  href="https://youtube.com/playlist?list=PLinedj3B30sA_M0oxCRgFzPzEMX3CSfT5&si=BI2kX71iSbzkAoVg"
+                  href="https://youtu.be/8_X0nSrzrCw"
                   target="_blank"
                   className="font-semibold underline"
                 >
-                  Rust
+                  NestJS
                 </Link>
                 <p>and</p>
                 <Link
