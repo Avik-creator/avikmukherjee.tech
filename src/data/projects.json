@@ -75,6 +75,28 @@
             ]
         },
         {
+            "name": "RealtimeSudoku",
+            "description": "It is a site for users to play Sudoku with their friends. There are different levels which you can try to compete it. ",
+            "image": "/Projects/RealtimeSudoku.png",
+            "tags": [
+                "Nextjs",
+                "TailwindCSS",
+                "LiveBlocks"
+            ],
+            "links": [
+                {
+                    "name": "Demo",
+                    "href": "https://sudoku.avikmukherjee.tech/",
+                    "icon": "globe"
+                },
+                {
+                    "name": "Github",
+                    "href": "https://github.com/Avik-creator/soduku-realtime",
+                    "icon": "github"
+                }
+            ]
+        },
+        {
             "name": "ResumeWorth",
             "description": "A project designed to enchance, evaluate and roast resumes by leveraging AI-driven insights and document parsing. Built using Groq API for llama model. Used over 700+ users in lifetime",
             "image": "/Projects/ResumeWorth.png",
