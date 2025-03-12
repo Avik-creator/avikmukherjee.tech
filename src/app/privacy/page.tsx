@@ -7,6 +7,21 @@ const lastUpdated = "Nov 2024";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Learn how I handle your data on my website.",
+  openGraph: {
+    title: "Privacy Policy | Avik",
+    description: "Learn how I handle your data on my website.",
+    url: "https://www.avikmukherjee.tech/privacy",
+    images: ["https://www.avikmukherjee.tech/og-image.jpg"],
+    siteName: "Avik Mukherjee",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    title: "Privacy Policy | Avik",
+    card: "summary_large_image",
+    images: ["https://www.avikmukherjee.tech/og-image.jpg"],
+    description: "Privacy Policy of Avik Mukherjee.",
+  },
 }
 
 export default function page() {

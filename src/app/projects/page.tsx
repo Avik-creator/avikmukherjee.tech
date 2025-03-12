@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Projects | Avik",
     description: "Projects of Avik Mukherjee.",
     url: "https://www.avikmukherjee.tech/projects",
-    images: ["https://www.avikmukherjee.tech/og-image.png"],
+    images: ["https://www.avikmukherjee.tech/og-image.jpg"],
     siteName: "Avik Mukherjee",
     locale: "en_US",
     type: "website",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     title: "Projects | Avik",
     card: "summary_large_image",
-    images: ["https://www.avikmukherjee.tech/og-image.png"],
+    images: ["https://www.avikmukherjee.tech/og-image.jpg"],
     description: "Projects of Avik Mukherjee.",
   },
 };

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: "https://www.avikmukherjee.tech",
     images: [
       {
-        url: "https://www.avikmukherjee.tech/og-image.png",
+        url: "https://www.avikmukherjee.tech/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Avik Mukherjee",
@@ -44,13 +44,13 @@ export const metadata: Metadata = {
     title: "Avik Mukherjee",
     images: [
       {
-        url: "https://www.avikmukherjee.tech/og-image.png",
+        url: "https://www.avikmukherjee.tech/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Avik Mukherjee",
       },
     ]
-  }
+  },
 };
 
 export default function RootLayout({
