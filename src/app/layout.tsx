@@ -37,6 +37,19 @@ export const metadata: Metadata = {
         alt: "Avik Mukherjee",
       },
     ]
+  },
+  twitter:{
+    card: "summary_large_image",
+    description: "My personal site to showcase my developer work and projects.",
+    title: "Avik Mukherjee",
+    images: [
+      {
+        url: "https://www.avikmukherjee.tech/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Avik Mukherjee",
+      },
+    ]
   }
 };
 
