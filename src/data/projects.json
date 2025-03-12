@@ -27,7 +27,7 @@
         },
         {
             "name": "FormCraftAI",
-            "description": "Building forms can often be tedious and time-consuming, but using FormCraftAI, one can leave the difficult labor to AI and create professional, user-friendly forms in seconds. Whether it is surveys, registrations, or feedback forms, FormCraftAI simplifies it all-no more messing about layouts, question structures, or formats. Simply describe what you need, and our intelligent AI will generate the most suitable form for you, saving time and effort on your part to focus on gathering insights and making informed decisions. Manual form building will be in the past, making way for effortless automation with FormCraftAI!",
+            "description": "Building forms can often be tedious and time-consuming, but using FormCraftAI, one can leave the difficult labor to AI and create professional, user-friendly forms in seconds. Whether it is surveys, registrations, or feedback forms, FormCraftAI simplifies it all-no more messing about layouts, question structures, or formats. Simply describe what you need, and our intelligent AI will generate the most suitable form for you, saving time and effort on your part to focus on gathering insights and making informed decisions. Manual form building will be in the past, making way for effortless automation with FormCraftAI! Note: Currently since this project is hosted on Vercel, the verification is taking error. To go around this for now, please just click on Advance and then proceed to the site.",
             "image": "/Projects/FormCraftAI.png",
             "tags": [
                 "Google Forms API",
