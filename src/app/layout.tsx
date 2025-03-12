@@ -15,8 +15,29 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "Avik Mukherjee",
+  metadataBase: new URL("https://www.avikmukherjee.tech"),
+  title: {
+    default: "Avik Mukherjee",
+    template: "%s | Avik Mukherjee",
+  },
   description: "My personal site to showcase my developer work and projects.",
+  keywords: ["developer", "web", "software", "engineer", "react", "next", "Avik", "Mukherjee", "Avik Mukherjee", "portfolio", "projects", "blog"],
+  openGraph: {
+    description: "My personal site to showcase my developer work and projects.",
+    title: "Avik Mukherjee",
+    type: "website",
+    siteName: "Avik Mukherjee",
+    locale: "en_US",
+    url: "https://www.avikmukherjee.tech",
+    images: [
+      {
+        url: "https://www.avikmukherjee.tech/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Avik Mukherjee",
+      },
+    ]
+  }
 };
 
 export default function RootLayout({
