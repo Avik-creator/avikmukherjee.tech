@@ -70,6 +70,19 @@ useEffect(() => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-8 text-center">Avik&apos;s Blog</h1>
+      <div className="mb-6 text-center">
+        <p className="text-lg text-gray-600">
+          For reading newer blogs, please visit:
+          <a
+            href="https://blog.avikmukherjee.tech"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline ml-2"
+          >
+            blog.avikmukherjee.tech
+          </a>
+        </p>
+      </div>
       <SearchComponent searchTerm={searchTerm} onSearchChange={(e) => onSearch(e.target.value)} />
       {filteredPosts.length === 0 ? (
         <p className="text-center text-muted-foreground mt-8">No posts found matching your search.</p>

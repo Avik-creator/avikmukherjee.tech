@@ -7,6 +7,7 @@ export default function BlogLoading() {
       <h2 className="text-2xl font-semibold mt-4">Loading blog posts...</h2>
       <p className="text-muted-foreground mt-2">Please wait while we fetch the latest content.</p>
     </div>
+    
   )
 }
 
