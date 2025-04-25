@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Calistoga, Inter } from "next/font/google";
 import { Analytics } from '@vercel/analytics/next';
+import Script from 'next/script'; 
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
@@ -60,6 +61,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Add the tracking script */}
+        <Script
+          defer
+          data-domain="avikmukherjee-tech.vercel.app"
+          src="https://webtracker.avikmukherjee.tech/tracking-script.js"
+        />
+      </head>
       <body
         className={cn(
           "mx-auto flex min-h-screen max-w-3xl flex-col px-8 font-sans antialiased",
